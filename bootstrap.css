@@ -1,0 +1,105 @@
+.info{
+    margin-left: 10px;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.cart img{
+    width: 50%;
+}
+.tabs{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.background{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 50%), url(./assignment/acme-website-homepage-assets/header.jpg);    
+    background-size: cover;
+    background-position: center;
+    padding: 80px 80px 80px 80px;
+}
+.waytosupport, .shopproducts{
+    padding: 50px 80px 50px 80px;
+}
+.support , .covid{
+    width: 50%;
+}
+.cards{
+    padding: 50px 80px 50px 80px;
+    width: 100%;
+    height: auto;
+}
+
+.cardone, .cardtwo, .cardthree{
+    width:33.3%;
+    margin-right: 50px;
+}
+.number{
+    padding: 30px;
+}
+.products{
+    width: 100%;
+    margin-right: 10px;
+    padding: 5px;
+}
+.details{
+    display: flex;
+    width: fit-content;
+    padding: 0px 80px 0px 80px;
+}
+.sell{
+    justify-content: center;
+}
+.secondbackground{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 50%), url(./assignment/acme-website-homepage-assets/second-section.jpg);    
+    background-size: cover;
+    background-position: center;
+    padding: 80px 80px 80px 80px;
+}
+.tent{
+    background-image: url("./assignment/acme-website-homepage-assets/product-1.jpg");
+}
+.tumbler{
+    background-image: url("./assignment/acme-website-homepage-assets/product-2.jpg");
+}
+.canvas{
+    background-image: url("./assignment/acme-website-homepage-assets/product-3.jpg");
+}
+.shape img{
+    position: relative;
+    top: 70px;
+    left: 50px
+}
+.tent , .tumbler , .canvas {
+    background-size: cover;
+    background-position: center;
+    padding: 80px 80px 80px 80px;
+    margin-right: 20px;
+    width: 30%;
+}
+.allproducts{
+    justify-content: center;
+    padding: 50px 80px 50px 80px;
+}
+.logos{
+    display: flex;
+}
+.logos img{
+    width: 10%;
+    min-width: 20%;
+}
+.cardone , .cardtwo , .cardthree{
+    overflow: hidden;
+}
+.containerthree{
+    padding: 50px 80px 50px 80px;
+    margin: 0px 20px 20px 20px;
+    width: 80%;
+}
+.text{
+    width: 40%;
+    text-align: left;
+}
