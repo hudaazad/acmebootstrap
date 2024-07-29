@@ -27,24 +27,10 @@
 .support , .covid{
     width: 50%;
 }
-.cards{
-    padding: 50px 80px 50px 80px;
-    width: 100%;
-    height: auto;
-}
-
-.cardone, .cardtwo, .cardthree{
-    width:33.3%;
-    margin-right: 50px;
-}
 .number{
     padding: 30px;
 }
-.products{
-    width: 100%;
-    margin-right: 10px;
-    padding: 5px;
-}
+
 .details{
     display: flex;
     width: fit-content;
@@ -71,14 +57,14 @@
 .shape img{
     position: relative;
     top: 70px;
-    left: 50px
+    left: 100px
 }
 .tent , .tumbler , .canvas {
     background-size: cover;
     background-position: center;
     padding: 80px 80px 80px 80px;
-    margin-right: 20px;
-    width: 30%;
+    height: 500px; 
+    margin: 10px;
 }
 .allproducts{
     justify-content: center;
@@ -94,12 +80,62 @@
 .cardone , .cardtwo , .cardthree{
     overflow: hidden;
 }
-.containerthree{
-    padding: 50px 80px 50px 80px;
-    margin: 0px 20px 20px 20px;
+.container-3 {
+    padding: 50px 80px; 
+    margin: 20px 0 20px 20px; 
     width: 80%;
+    position: relative;
 }
+
 .text{
     width: 40%;
     text-align: left;
+}
+.canvas {
+    position: relative;
+}
+
+.sale {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+}
+.social .social-icon {
+    width: 40px; 
+    margin-left: 10px; 
+}
+.container-4{
+    background-image: url("/assignment/acme-website-homepage-assets/profile.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 500px; 
+    margin: 10px;
+    position:relative;
+    left: 100px;
+    z-index: 1;
+}
+.profile {
+    display: flex;
+    align-items: flex-start;
+}
+
+.container-3 {
+    width: 70%; 
+    padding: 50px 80px;
+    margin: 0 20px 20px 0; 
+    position: relative;
+    box-sizing: border-box;
+}
+
+.text {
+    width: 50%;
+    text-align: left; 
+}
+.product-title, .product-price {
+    text-align: center;
+}
+.cardone , .cardtwo , .cardthree{
+    width: 100%;
+    height: 400px;
 }
