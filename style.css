@@ -96,16 +96,14 @@
     margin-left: 10px; 
 }
 .container-4{
-    background-image: url("/assignment/acme-website-homepage-assets/profile.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 200px;
-    height: 400px; 
-    margin: 10px;
     position:relative;
     left: 100px;
     top: 50px;
     z-index: 1;
+}
+.container-4 img{
+    width: 200px;
+    height: 400px;
 }
 .profile {
     display: flex;
